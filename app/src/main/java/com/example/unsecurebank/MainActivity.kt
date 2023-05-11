@@ -6,12 +6,14 @@ import android.content.SharedPreferences
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.unsecurebank.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var sharedPreferences: SharedPreferences
+    private val validationViewModel: ValidationViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,9 +27,11 @@ class MainActivity : AppCompatActivity() {
             val username = binding.usernameEditText.text.toString()
             val password = binding.passwordEditText.text.toString()
 
-            if (!isValidUsernamePassword(username) || !isValidUsernamePassword(password)) {
-                Toast.makeText(this, "Invalid input", Toast.LENGTH_SHORT).show()
-                return@setOnClickListener
+            validationViewModel.apply {
+                if (!isValidUsernamePassword(username) || !isValidUsernamePassword(password)) {
+                    Toast.makeText(this@MainActivity, "Invalid input", Toast.LENGTH_SHORT).show()
+                    return@setOnClickListener
+                }
             }
 
             if (username == sharedPreferences.getString("$username password", "") &&
@@ -47,9 +51,5 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun isValidUsernamePassword(input: String): Boolean {
-        val usernamePasswordRegex = "[_\\-.0-9a-z]{1,127}".toRegex()
-        return input.matches(usernamePasswordRegex)
-    }
 }
 
