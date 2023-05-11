@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Unsecure Bank</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="initial_balance">Initial balance</string>
+    <string name="register">Register</string>
+    <string name="balance">Balance:</string>
+    <string name="amount">Amount</string>
+    <string name="deposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="login">Login</string>
+    <string name="balance_with_value">Balance: %1$.2f</string>
 </resources>

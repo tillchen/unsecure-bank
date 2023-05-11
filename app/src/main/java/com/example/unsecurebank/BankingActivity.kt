@@ -24,21 +24,22 @@ class BankingActivity : AppCompatActivity() {
         val depositButton = findViewById<Button>(R.id.depositButton)
         depositButton.setOnClickListener {
             val amount = binding.amountEditText.text.toString().toFloat()
-            val balance = sharedPreferences.getFloat("$username balance", 0f)
+            var balance = sharedPreferences.getFloat("$username balance", 0f)
 
             with(sharedPreferences.edit()) {
                 putFloat("$username balance", balance + amount)
                 apply()
             }
 
-            binding.balanceTextView.text = "Balance: ${sharedPreferences.getFloat("$username balance", 0f)}"
+            balance = sharedPreferences.getFloat("$username balance", 0f)
+            binding.balanceTextView.text = getString(R.string.balance_with_value, balance)
             Toast.makeText(this, "Deposit successful", Toast.LENGTH_SHORT).show()
         }
 
         val withdrawButton = findViewById<Button>(R.id.withdrawButton)
         withdrawButton.setOnClickListener {
             val amount = binding.amountEditText.text.toString().toFloat()
-            val balance = sharedPreferences.getFloat("$username balance", 0f)
+            var balance = sharedPreferences.getFloat("$username balance", 0f)
 
             if (balance >= amount) {
                 with(sharedPreferences.edit()) {
@@ -46,7 +47,8 @@ class BankingActivity : AppCompatActivity() {
                     apply()
                 }
 
-                binding.balanceTextView.text = "Balance: ${sharedPreferences.getFloat("$username balance", 0f)}"
+                balance = sharedPreferences.getFloat("$username balance", 0f)
+                binding.balanceTextView.text = getString(R.string.balance_with_value, balance)
                 Toast.makeText(this, "Withdrawal successful", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Insufficient balance", Toast.LENGTH_SHORT).show()
@@ -56,6 +58,7 @@ class BankingActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        binding.balanceTextView.text = "Balance: ${sharedPreferences.getFloat("$username balance", 0f)}"
+        val balance = sharedPreferences.getFloat("$username balance", 0f)
+        binding.balanceTextView.text = getString(R.string.balance_with_value, balance)
     }
 }
