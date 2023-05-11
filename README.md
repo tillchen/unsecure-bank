@@ -28,6 +28,10 @@ Install [Android Studio](https://developer.android.com/studio). Import the proje
 * // TODO: Harry
 * // TODO: Huikun
 
+## Secure Coding and Design Principles
+
+// TODO
+
 ## Contributors
 
 * Tianyao Chen (tianyc18@uci.edu)
