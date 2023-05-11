@@ -4,11 +4,10 @@ import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.widget.Button
-import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.unsecurebank.databinding.ActivityMainBinding
+import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -19,29 +18,29 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         sharedPreferences = getSharedPreferences("BankApp", Context.MODE_PRIVATE)
+        setListeners()
+    }
 
-        val loginButton = findViewById<Button>(R.id.loginButton)
-        loginButton.setOnClickListener {
+    private fun setListeners() {
+        binding.loginButton.setOnClickListener {
             val username = binding.usernameEditText.text.toString()
             val password = binding.passwordEditText.text.toString()
 
             validationViewModel.apply {
                 if (!isValidUsernamePassword(username) || !isValidUsernamePassword(password)) {
-                    Toast.makeText(this@MainActivity, "Invalid input", Toast.LENGTH_SHORT).show()
+                    Snackbar.make(binding.root, R.string.invalid_input, Snackbar.LENGTH_SHORT).show()
                     return@setOnClickListener
                 }
             }
 
-            if (username == sharedPreferences.getString("$username password", "") &&
-                password == sharedPreferences.getString("$username password", "")
-            ) {
+            if (password == sharedPreferences.getString("$username password", "")) {
                 val intent = Intent(this, BankingActivity::class.java)
                 intent.putExtra("username", username)
                 startActivity(intent)
+                finish()
             } else {
-                Toast.makeText(this, "Invalid username or password", Toast.LENGTH_SHORT).show()
+                Snackbar.make(binding.root, R.string.wrong_username_or_password, Snackbar.LENGTH_SHORT).show()
             }
         }
 

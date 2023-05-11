@@ -3,11 +3,11 @@ package com.example.unsecurebank
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.widget.Button
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.unsecurebank.databinding.ActivityRegisterBinding
+import com.google.android.material.snackbar.Snackbar
 
 class RegisterActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRegisterBinding
@@ -18,18 +18,19 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         sharedPreferences = getSharedPreferences("BankApp", Context.MODE_PRIVATE)
+        setListeners()
+    }
 
-        val registerButton = findViewById<Button>(R.id.registerButton)
-        registerButton.setOnClickListener {
+    private fun setListeners() {
+        binding.registerButton.setOnClickListener {
             val username = binding.usernameEditText.text.toString()
             val password = binding.passwordEditText.text.toString()
             val balance = binding.balanceEditText.text.toString()
 
             validationViewModel.apply {
                 if (!isValidUsernamePassword(username) || !isValidUsernamePassword(password) || !isValidBalance(balance)) {
-                    Toast.makeText(this@RegisterActivity, "invalid_input", Toast.LENGTH_SHORT).show()
+                    Snackbar.make(binding.root, R.string.invalid_input, Snackbar.LENGTH_SHORT).show()
                     return@setOnClickListener
                 }
             }
@@ -40,7 +41,7 @@ class RegisterActivity : AppCompatActivity() {
                 apply()
             }
 
-            Toast.makeText(this, "Account created successfully", Toast.LENGTH_SHORT).show()
+            Snackbar.make(binding.root, R.string.account_created, Snackbar.LENGTH_SHORT).show()
             finish()
         }
     }
