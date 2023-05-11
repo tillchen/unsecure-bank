@@ -23,11 +23,16 @@ class BankingActivity : AppCompatActivity() {
 
         val depositButton = findViewById<Button>(R.id.depositButton)
         depositButton.setOnClickListener {
-            val amount = binding.amountEditText.text.toString().toFloat()
-            var balance = sharedPreferences.getFloat("$username balance", 0f)
+            val amount = binding.amountEditText.text.toString()
 
+            if (!isValidAmount(amount)) {
+                Toast.makeText(this, "Invalid input", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            var balance = sharedPreferences.getFloat("$username balance", 0f)
             with(sharedPreferences.edit()) {
-                putFloat("$username balance", balance + amount)
+                putFloat("$username balance", balance + amount.toFloat())
                 apply()
             }
 
@@ -38,12 +43,18 @@ class BankingActivity : AppCompatActivity() {
 
         val withdrawButton = findViewById<Button>(R.id.withdrawButton)
         withdrawButton.setOnClickListener {
-            val amount = binding.amountEditText.text.toString().toFloat()
+            val amount = binding.amountEditText.text.toString()
+
+            if (!isValidAmount(amount)) {
+                Toast.makeText(this, "Invalid input", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
             var balance = sharedPreferences.getFloat("$username balance", 0f)
 
-            if (balance >= amount) {
+            if (balance >= amount.toFloat()) {
                 with(sharedPreferences.edit()) {
-                    putFloat("$username balance", balance - amount)
+                    putFloat("$username balance", balance - amount.toFloat())
                     apply()
                 }
 
@@ -61,4 +72,10 @@ class BankingActivity : AppCompatActivity() {
         val balance = sharedPreferences.getFloat("$username balance", 0f)
         binding.balanceTextView.text = getString(R.string.balance_with_value, balance)
     }
+
+    private fun isValidAmount(amount: String): Boolean {
+        val amountRegex = "^\\d+\\.\\d{2}$".toRegex()
+        return amount.matches(amountRegex) && amount.toDouble() in 0.00..4294967295.99
+    }
 }
+

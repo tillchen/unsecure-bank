@@ -25,6 +25,11 @@ class MainActivity : AppCompatActivity() {
             val username = binding.usernameEditText.text.toString()
             val password = binding.passwordEditText.text.toString()
 
+            if (!isValidUsernamePassword(username) || !isValidUsernamePassword(password)) {
+                Toast.makeText(this, "Invalid input", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
             if (username == sharedPreferences.getString("$username password", "") &&
                 password == sharedPreferences.getString("$username password", "")
             ) {
@@ -36,10 +41,15 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        val registerButton = findViewById<Button>(R.id.registerButton)
-        registerButton.setOnClickListener {
+        binding.registerButton.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
     }
+
+    private fun isValidUsernamePassword(input: String): Boolean {
+        val usernamePasswordRegex = "[_\\-.0-9a-z]{1,127}".toRegex()
+        return input.matches(usernamePasswordRegex)
+    }
 }
+
