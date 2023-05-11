@@ -3,7 +3,6 @@ package com.example.unsecurebank
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.unsecurebank.databinding.ActivityRegisterBinding
