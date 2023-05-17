@@ -33,7 +33,17 @@ Install [Android Studio](https://developer.android.com/studio). Import the proje
 
 ## Secure Coding and Design Principles
 
-// TODO
+* Principle of Least Privilege: Apart from the injected excessive permission, the app doesn't request or use any unnecessary Android permissions that could potentially expose sensitive user data or system resources. Each component has the minimum rights necessary to perform its designated tasks.
+* Input Validation: Input validation is practiced in the app where the ViewModel validates username, password, and balance inputs based on certain rules, thereby mitigating the risk of injection attacks.
+* Error Handling: The app has implemented proper error handling. For example, when an invalid input is encountered, it doesn't crash but instead provides feedback to the user through a Snackbar message.
+* Code Readability and Maintenance: The app's code is modular and follows the Single Responsibility Principle, meaning each function has a single job. This makes the code easier to read and maintain.
+* Secure Defaults: By using Android's SharedPreferences in MODE_PRIVATE, we ensure that the app's data is accessible only by your app by default. This is an example of a secure default setting.
+* Defense in Depth: The app is not relying on only one security measure, but have layered several defenses. We are validating input and also restricting access to data with SharedPreferences.
+* Minimization: The app has only the necessary components it needs to function, reducing the potential attack surface.
+* Least Common Mechanism: The app avoids sharing components where possible. For example, each user has their own SharedPreferences for storing their balance and password, minimizing the potential risk from shared components.
+* Principle of Complete Mediation: The app checks the validity of inputs every time it receives them, not just the first time. This is evident in the ViewModel where every input is passed through a validation check.
+* Simplicity: The design of the app is quite simple and straightforward. This makes it easier to ensure that it is secure, as there are fewer components that can potentially be exploited.
+* Secure Failure: When a failure happens, the app fails securely. For instance, if the login credentials are wrong, the user is not allowed access and is presented with a 'wrong username or password' message.
 
 ## Contributors
 
