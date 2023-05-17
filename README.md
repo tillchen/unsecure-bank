@@ -4,7 +4,7 @@ This is an intentionally unsecure bank Android app for the SWE 266P course at UC
 
 ## How to run
 
-Install [Android Studio](https://developer.android.com/studio). Import the project. And then click run on the top right. Before sure to install the required JDK (JDK 11), Android SDK (Android 13), and emulator (Android 13) if applicable.
+Install [Android Studio](https://developer.android.com/studio). Import the project. And then click run on the top right. Before sure to install the required JDK (JDK 17), Android SDK (Android 13), and emulator (Android 13) if applicable.
 
 ## Injected Vulnerabilities
 
