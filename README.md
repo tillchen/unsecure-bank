@@ -6,6 +6,8 @@ This is an intentionally unsecure bank Android app for the SWE 266P course at UC
 
 Install [Android Studio](https://developer.android.com/studio). Import the project. And then click run on the top right. Before sure to install the required JDK (JDK 17), Android SDK (Android 13), and emulator (Android 13) if applicable.
 
+For JDK errors, you can go to Settings-Build, Execution, Deployment-Build Tools-Gradle-Gradle JDK, and then select the Android Studio bundled JDK.
+
 ## Injected Vulnerabilities
 
 * Insecure data storage. The app data is saved locally by using `SharedPreferences`, which is not encrypted. Anyone with access to the file system or a rooted device and read and modify the app data. For example, the attacker might get the file from a path like `/data/data/com.example.unsecurebank/shared_prefs/BankApp.xml` and find entries like `<string name="123 password">456</string>`, which enables them to have unauthorized access. It's easier to find this file in Android Studio by going to the Device File Explorer on the bottom right and then going to the specified directory.
