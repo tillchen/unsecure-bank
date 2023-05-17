@@ -8,6 +8,8 @@ Install [Android Studio](https://developer.android.com/studio). Import the proje
 
 For JDK errors, you can go to Settings-Build, Execution, Deployment-Build Tools-Gradle-Gradle JDK, and then select the Android Studio bundled JDK.
 
+**Note that all the numbers in the app have to follow the format 0.00, i.e. two decimals.**
+
 ## Injected Vulnerabilities
 
 * Insecure data storage. The app data is saved locally by using `SharedPreferences`, which is not encrypted. Anyone with access to the file system or a rooted device and read and modify the app data. For example, the attacker might get the file from a path like `/data/data/com.example.unsecurebank/shared_prefs/BankApp.xml` and find entries like `<string name="123 password">456</string>`, which enables them to have unauthorized access. It's easier to find this file in Android Studio by going to the Device File Explorer on the bottom right and then going to the specified directory.
