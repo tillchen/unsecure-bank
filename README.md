@@ -52,22 +52,15 @@ For JDK errors, you can go to Settings-Build, Execution, Deployment-Build Tools-
     }
   ```
 
+* Insecure Logging. Verbose logging that includes sensitive information such as usernames, passwords, or other personally identifiable information (PII) can enable attackers to obtain the information by looking at the log. When the user logs in, the username and password is printed in the log. You can see it in the Logcat.
 
-* Insecure Logging 
-  Description
-  Insecure Logging is a simple demonstration project that highlights some potential security issues in Android development. The core code is a simple Login activity where users can enter their usernames and passwords, validate them, and, if successful, move on to a BankingActivity.
+    ```kt
+        android:debuggable="true" // AndroidManifest.xml
 
-Potential Security Issue
-The problem with this snippet of code is the logging of sensitive data. When a user successfully logs in, their username and password are logged in plain text. In production applications, logging sensitive data in plain text can be a security risk. Attackers may be able to read these logs and obtain sensitive user data.
+        Log.d( "MainActivity", "username $username password $password") // MainActivity.kt
+    ```
 
-Here is the line :
-
-```kt
-    Log.d( "MainActivity", "username $username password $password")
-  ```
-
-Here is the log where it shows the password when logging:
-![image2](images/log-password.jpg)
+    ![image2](images/log-password.png)
 
 * Excessive permissions. After signing in, the app will ask the user for permission of user's location. Excessive permissions in Android apps can be a security risk: Privacy Invasion: Unneeded permissions can access and misuse private user data. Trust Issues: Users may avoid apps that request unnecessary permissions, or unknowingly risk their data by granting them. Expanded Attack Surface: More permissions mean more code that can be exploited by an attacker. Permission Leakage: Other apps may use an app's permissions to access data they shouldn't have access to. Potential Misuse: Even if not initially misused, granted permissions could be exploited in future app updates.
 
