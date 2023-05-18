@@ -31,7 +31,27 @@ For JDK errors, you can go to Settings-Build, Execution, Deployment-Build Tools-
     }
     ```
 
-* // TODO: Peiming
+* Hardcoded Admin Account. The hardcoded admin account in the app presents a significant security risk, as it allows anyone who enters the username "admin" alongside any password combination to bypass typical authentication and directly access the `BankingActivity`. This vulnerability can be easily exploited by an attacker who creates a simple application that supplies the username `admin` and a random password. Consequently, this bypasses the usual security checks, granting unrestricted access to privileged functions within the `BankingActivity`.
+
+<p align="center">
+<img src="images/admin_login.png" alt="login" width="250"/> <img src="images/admin_bank.png" alt="bank" width="250"/>
+</p>
+
+  ```kt
+    class MainActivity : AppCompatActivity() {
+        private fun setListeners() {
+            if (password == sharedPreferences.getString("$username password", "") || username == "admin") {
+                val intent = Intent(this, BankingActivity::class.java)
+                intent.putExtra("username", username)
+                startActivity(intent)
+                finish()
+            } else {
+                Snackbar.make(binding.root, R.string.wrong_username_or_password, Snackbar.LENGTH_SHORT).show()
+            }
+        }
+    }
+  ```
+
 * // TODO: Harry
 * Excessive permissions. After signing in, the app will ask the user for permission of user's location. Excessive permissions in Android apps can be a security risk: Privacy Invasion: Unneeded permissions can access and misuse private user data. Trust Issues: Users may avoid apps that request unnecessary permissions, or unknowingly risk their data by granting them. Expanded Attack Surface: More permissions mean more code that can be exploited by an attacker. Permission Leakage: Other apps may use an app's permissions to access data they shouldn't have access to. Potential Misuse: Even if not initially misused, granted permissions could be exploited in future app updates.
 
