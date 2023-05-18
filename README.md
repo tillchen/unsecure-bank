@@ -34,7 +34,7 @@ For JDK errors, you can go to Settings-Build, Execution, Deployment-Build Tools-
 * Hardcoded Admin Account. The hardcoded admin account in the app presents a significant security risk, as it allows anyone who enters the username "admin" alongside any password combination to bypass typical authentication and directly access the `BankingActivity`. This vulnerability can be easily exploited by an attacker who creates a simple application that supplies the username `admin` and a random password. Consequently, this bypasses the usual security checks, granting unrestricted access to privileged functions within the `BankingActivity`.
 
 <p align="center">
-<img src="images/admin_login.png" alt="login"/> <img src="images/admin_bank.png" alt="bank"/>
+<img src="images/admin_login.png" alt="login" width="250"/> <img src="images/admin_bank.png" alt="bank" width="250"/>
 </p>
 
   ```kt
