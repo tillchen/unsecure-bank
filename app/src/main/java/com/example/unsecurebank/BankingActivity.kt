@@ -1,7 +1,7 @@
 package com.example.unsecurebank
 
-import android.content.Context
 import android.Manifest
+import android.content.Context
 import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.os.Bundle
@@ -25,13 +25,13 @@ class BankingActivity : AppCompatActivity() {
         sharedPreferences = getSharedPreferences("BankApp", Context.MODE_PRIVATE)
         username = intent.getStringExtra("username")!!
         setListeners()
+        requestLocationPermission()
     }
 
     override fun onResume() {
         super.onResume()
         val balance = sharedPreferences.getFloat("$username balance", 0f)
         binding.balanceTextView.text = getString(R.string.balance_with_value, balance)
-        requestLocationPermission()
     }
 
     private fun setListeners() {
@@ -75,13 +75,13 @@ class BankingActivity : AppCompatActivity() {
     private fun requestLocationPermission() {
         if (ContextCompat.checkSelfPermission(
                 this,
-                Manifest.permission.ACCESS_FINE_LOCATION
+                Manifest.permission.ACCESS_FINE_LOCATION,
             ) != PackageManager.PERMISSION_GRANTED
         ) {
             ActivityCompat.requestPermissions(
                 this,
                 arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
-                0
+                0,
             )
         }
     }
