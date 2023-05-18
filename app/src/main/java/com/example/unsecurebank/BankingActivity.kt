@@ -1,10 +1,14 @@
 package com.example.unsecurebank
 
 import android.content.Context
+import android.Manifest
 import android.content.SharedPreferences
+import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import com.example.unsecurebank.databinding.ActivityBankingBinding
 import com.google.android.material.snackbar.Snackbar
 
@@ -27,6 +31,7 @@ class BankingActivity : AppCompatActivity() {
         super.onResume()
         val balance = sharedPreferences.getFloat("$username balance", 0f)
         binding.balanceTextView.text = getString(R.string.balance_with_value, balance)
+        requestLocationPermission()
     }
 
     private fun setListeners() {
@@ -64,6 +69,20 @@ class BankingActivity : AppCompatActivity() {
             } else {
                 Snackbar.make(binding.root, R.string.insufficient_balance, Snackbar.LENGTH_SHORT).show()
             }
+        }
+    }
+
+    private fun requestLocationPermission() {
+        if (ContextCompat.checkSelfPermission(
+                this,
+                Manifest.permission.ACCESS_FINE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+            ActivityCompat.requestPermissions(
+                this,
+                arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
+                0
+            )
         }
     }
 }
