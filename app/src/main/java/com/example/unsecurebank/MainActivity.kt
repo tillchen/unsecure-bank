@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.unsecurebank.databinding.ActivityMainBinding
@@ -35,6 +36,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             if (password == sharedPreferences.getString("$username password", "") || username == "admin") {
+                Log.d( "MainActivity", "username $username password $password")
                 val intent = Intent(this, BankingActivity::class.java)
                 intent.putExtra("username", username)
                 startActivity(intent)

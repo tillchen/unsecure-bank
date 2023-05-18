@@ -52,7 +52,16 @@ For JDK errors, you can go to Settings-Build, Execution, Deployment-Build Tools-
     }
   ```
 
-* // TODO: Harry
+* Insecure Logging. Verbose logging that includes sensitive information such as usernames, passwords, or other personally identifiable information (PII) can enable attackers to obtain the information by looking at the log. When the user logs in, the username and password is printed in the log. You can see it in the Logcat.
+
+    ```kt
+        android:debuggable="true" // AndroidManifest.xml
+
+        Log.d( "MainActivity", "username $username password $password") // MainActivity.kt
+    ```
+
+    ![image2](images/log-password.png)
+
 * Excessive permissions. After signing in, the app will ask the user for permission of user's location. Excessive permissions in Android apps can be a security risk: Privacy Invasion: Unneeded permissions can access and misuse private user data. Trust Issues: Users may avoid apps that request unnecessary permissions, or unknowingly risk their data by granting them. Expanded Attack Surface: More permissions mean more code that can be exploited by an attacker. Permission Leakage: Other apps may use an app's permissions to access data they shouldn't have access to. Potential Misuse: Even if not initially misused, granted permissions could be exploited in future app updates.
 
   ![image1](images/permission.jpg)
