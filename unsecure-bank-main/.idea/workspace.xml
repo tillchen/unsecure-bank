@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b68aeda-d89d-44f0-b197-1ffd4f1976df" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/../../261p/guava" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/Sixteen$WordFrequencyApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/Sixteen$WordFrequencyCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/target/dependency/sqlite-jdbc-3.36.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week4/Nine$filterAndRemove.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week4/Sixteen$DataStorage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week4/Sixteen$EventManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week4/Sixteen$StopWordFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week4/Sixteen$WordFrequencyApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week4/Sixteen$WordFrequencyCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/deploy/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/deploy/extract1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/deploy/extract2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/deploy/framework.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/deploy/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/deploy/stop_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/framework/Count.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/framework/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/framework/Extract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/framework/Extract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/framework/Framework.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/framework/Framework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/framework/framework.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/framework/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/plugins/count1/Count1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/plugins/count1/Count1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/plugins/count1/count1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/plugins/count2/Count2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/plugins/count2/Count2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/plugins/count2/count2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/plugins/extract1/Extract1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/plugins/extract1/Extract1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/plugins/extract1/extract1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/plugins/extract2/Extract2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/plugins/extract2/Extract2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twenty/plugins/extract2/extract2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twentySix/TwentySix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week6/twentySix/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week7/Iterators$Count_and_sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week7/Iterators$Get_lines.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week7/Iterators$Non_stop_words.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week8/Thirty$Process_words.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week8/ThirtyTwo$countWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week8/ThirtyTwo$splitWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week8/TwentyNine$DataStorageManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week8/TwentyNine$StopWordManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week8/TwentyNine$WordFrequencyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/262P-main/week8/TwentyNine$WordFrequencyManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/src/main/java/10wikipedia-20101026-all-titles-in-ns0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/src/main/java/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/src/main/java/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/src/main/java/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/src/main/java/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/src/main/java/books.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/src/main/java/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/target/classes/Task1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/target/classes/Task2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/target/classes/Task3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/target/classes/Task4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/target/classes/Task5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/target/classes/books.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/target/classes/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__colt_colt_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_auto_value_auto_value_annotations_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_caliper_caliper_1_0_beta_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_caliper_caliper_api_1_0_beta_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_caliper_caliper_core_1_0_beta_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_caliper_caliper_runner_1_0_beta_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_caliper_caliper_util_1_0_beta_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_caliper_caliper_worker_1_0_beta_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_caliper_caliper_worker_jvm_1_0_beta_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_code_gson_gson_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_code_gson_gson_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_code_java_allocation_instrumenter_java_allocation_instrumenter_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_dagger_dagger_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_dagger_dagger_producers_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_jimfs_jimfs_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_jsinterop_jsinterop_annotations_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_truth_extensions_truth_java8_extension_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_truth_extensions_truth_java8_extension_gwt_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_truth_truth_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_google_truth_truth_gwt_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_ibm_icu_icu4j_63_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_shapesecurity_salvation2_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__commons_net_commons_net_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__javax_validation_validation_api_sources_1_0_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__joda_time_joda_time_2_10_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_55_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_55_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_cssparser_1_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_55_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_apache_commons_commons_text_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_brotli_dec_0_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_checkerframework_checker_qual_3_29_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_apache_jsp_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_annotations_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_jndi_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_ajax_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_toolchain_jetty_schemas_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_44_v20210927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_gwtproject_gwt_dev_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_gwtproject_gwt_user_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_mockito_mockito_core_4_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_mortbay_jasper_apache_el_8_5_70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_mortbay_jasper_apache_jsp_8_5_70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_objenesis_objenesis_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_ow2_asm_asm_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_ow2_asm_asm_analysis_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_ow2_asm_asm_analysis_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_ow2_asm_asm_commons_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_ow2_asm_asm_commons_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_ow2_asm_asm_tree_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_ow2_asm_asm_tree_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_ow2_asm_asm_util_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_ow2_asm_asm_util_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__tapestry_tapestry_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__xerces_xercesImpl_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/milestone2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/project/milestone2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/WordFrequency5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/WordFrequency4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/WordFrequency5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/WordFrequency6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/answer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/stop_words" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/out/production/week2 exercise/week2 exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/stop_words" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week2 exercise/week2 exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week3/out/production/week3/WordFrequency8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/.idea/week4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/.idea/week4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency10$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency10$Func.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency10$TheOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency10$readFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency10$removeStopWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency10$top25.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency16$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency16$DataStorage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency16$EventManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency16$StopWordFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency16$WordFrequencyApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency16$WordFrequencyCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency9$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency9$Func.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency9$removeStopWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency9$top25.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/WordFrequency9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/out/production/week4/stop_words" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week4/stop_words" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/.idea/libraries/JSON_java_master_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/.idea/libraries/JSON_java_master_main1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/JSON-java-master.main.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/JarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/target/classes/JarClasses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/target/production/week5/.idea/libraries/JSON_java_master_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/target/production/week5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/target/production/week5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/target/production/week5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/target/production/week5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/target/production/week5/JSON-java-master.main.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/target/production/week5/JarClasses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/target/production/week5/week5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week5/week5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/.idea/libraries/framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/framework/IExtract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/framework/IExtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/framework/IFreq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/framework/IFreq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/framework/Manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/framework/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/framework/framework.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/framework/framework.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/framework/framework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/.idea/libraries/framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/framework/IExtract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/framework/IFreq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/framework/Manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/framework/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/framework/framework.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/framework/framework.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/plugin1/extractNormalWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/plugin2/extractZWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/plugin3/countNormalWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/plugin4/countFirstLetter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/out/production/week6/com/week6/week6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/plugin1/extractNormalWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/plugin2/extractZWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/plugin3/countNormalWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/plugin4/countFirstLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week6/week6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/.idea/week8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/.idea/week8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/WordFrequency29$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/WordFrequency29$ActiveWFObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/WordFrequency29$FrequencyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/WordFrequency29$FrequencyManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/WordFrequency29$StopWordManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/WordFrequency29$StorageManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/WordFrequency29.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/WordFrequency30$ProcessWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/WordFrequency30.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/WordFrequency32$countWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/WordFrequency32$splitWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/WordFrequency32.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/out/production/week8/stop_words" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../262p/week8/stop_words" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/.idea/264P.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/OutputB.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/WildPoints.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/OutputB.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/Sample/FilterFramework$EndOfStreamException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/Sample/FilterFramework.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/Sample/FlightData.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/Sample/MiddleFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/Sample/SourceFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemA.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemA/FilterFramework$EndOfStreamException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemA/FilterFramework.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemA/FlightData.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemA/MiddleFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemA/Plumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemA/SourceFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemB.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemB/FilterFramework$EndOfStreamException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemB/FilterFramework.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemB/FlightData.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemB/MiddleFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/SystemB/SourceFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/Templates/FilterFramework$EndOfStreamException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/Templates/FilterFramework.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/Templates/FilterTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/Templates/PlumberTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/Templates/SinkFilterTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/Templates/SourceFilterTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB1/out/production/LAB1/WildPoints.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/LAB2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/ClientInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/ClientOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/CommandEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/Courses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/EventBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/Lab2-Code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/ListAllCoursesHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/ListAllStudentsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/ListCoursesCompletedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/ListCoursesRegisteredHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/ListStudentsRegisteredHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/RegisterStudentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/Students.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/SystemMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/ClientInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/ClientOutput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/CommandEventHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/Courses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/DataBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/EventBus$Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/EventBus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/Lab2-Code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/ListAllCoursesHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/ListAllStudentsHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/ListCoursesCompletedHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/ListCoursesRegisteredHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/ListStudentsRegisteredHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/RegisterStudentHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/Students.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Lab2-Code/out/production/Lab2-Code/SystemMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/ClientInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/ClientOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/CommandEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/ConflictHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/Courses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/EventBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/ListAllCoursesHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/ListAllStudentsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/ListCoursesCompletedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/ListCoursesRegisteredHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/ListStudentsRegisteredHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/Modified-System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/RegisterStudentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/Students.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/SystemMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/ClientInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/ClientLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/ClientOutput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/CommandEventHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/CourseConflictHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/Courses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/DataBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/EventBus$Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/EventBus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/ListAllCoursesHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/ListAllStudentsHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/ListCoursesCompletedHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/ListCoursesRegisteredHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/ListStudentsRegisteredHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/Modified-System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/OverbookedHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/RegisterStudentHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/Students.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/SystemMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/Modified-System/out/production/Modified-System/output.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/._Lab2-Code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/._Lab2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._ClientInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._ClientOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._CommandEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._Courses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._EventBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._ListAllCoursesHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._ListAllStudentsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._ListCoursesCompletedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._ListCoursesRegisteredHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._ListStudentsRegisteredHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._RegisterStudentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._Students.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB2/__MACOSX/Lab2-Code/._SystemMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB3/.idea/LAB3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB3/Lab3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB3/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/LAB3/android-retrofit-tutorial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/sonar-project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/model/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/owner/PetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/owner/PetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/owner/PetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/system/CrashController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/vet/Specialty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/vet/VetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/java/org/springframework/samples/petclinic/visit/VisitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/less/header.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/less/petclinic.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/less/responsive.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/less/typography.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/resources/db/hsqldb/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/resources/db/hsqldb/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/resources/db/mysql/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/resources/db/mysql/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/resources/static/resources/images/spring-logo-dataflow-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/resources/templates/vets/vetList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/wro/wro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/main/wro/wro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/test/java/org/springframework/samples/petclinic/PetclinicIntegrationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/test/java/org/springframework/samples/petclinic/vet/VetTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../264P/spring-petclinic-master/src/test/jmeter/petclinic_test_plan.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/.github/workflows/codeql-analysis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/.github/workflows/pipeline.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/Examples.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/docs/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/docs/FILES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/docs/NOTES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/docs/RELEASES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/docs/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/images/JsonJava.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/CDL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/Cookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/CookieList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/HTTP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/HTTPTokener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/JSONArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/JSONException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/JSONML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/JSONObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/JSONPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/JSONPointerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/JSONPropertyIgnore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/JSONPropertyName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/JSONString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/JSONStringer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/JSONTokener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/JSONWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/XML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/XMLParserConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/XMLTokener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/main/java/org/json/XMLXsiTypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/CDLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/CookieListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/CookieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/EnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/HTTPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/JSONArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/JSONMLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/JSONObjectLocaleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/JSONObjectNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/JSONObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/JSONPointerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/JSONStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/JSONStringerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/JSONTokenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/PropertyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/XMLConfigurationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/XMLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/BrokenToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/ExceptionalBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/Fraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/GenericBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/GenericBeanInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyBeanCustomName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyBeanCustomNameInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyBeanCustomNameSubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyBigNumberBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyEnumClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyEnumField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyJsonString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyLocaleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyNumberContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/MyPublicClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/RecursiveBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/RecursiveBeanEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/SingletonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/StringsResourceBundle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/java/org/json/junit/data/WeirdList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/resources/Issue537.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/resources/Issue537.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/resources/Issue593.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/resources/Issue593.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/resources/Issue654WellFormedArray.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/resources/Issue654WellFormedObject.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSON-java-master/src/test/resources/jsonpointer-testdoc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/.github/workflows/pipeline.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/Examples.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/docs/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/docs/FILES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/docs/NOTES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/docs/RELEASES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/docs/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/images/JsonJava.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/CDL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/Cookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/CookieList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/HTTP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/HTTPTokener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/JSONArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/JSONException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/JSONML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/JSONObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/JSONPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/JSONPointerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/JSONPropertyIgnore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/JSONPropertyName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/JSONString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/JSONStringer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/JSONTokener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/JSONWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/XML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/XMLParserConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/XMLTokener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/main/java/org/json/XMLXsiTypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/CDLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/CookieListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/CookieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/EnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/HTTPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/JSONArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/JSONMLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/JSONObjectLocaleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/JSONObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/JSONPointerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/JSONStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/JSONStringerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/JSONTokenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/PropertyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/XMLConfigurationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/XMLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/BrokenToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/ExceptionalBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/Fraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/GenericBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/GenericBeanInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyBeanCustomName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyBeanCustomNameInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyBeanCustomNameSubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyBigNumberBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyEnumClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyEnumField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyJsonString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyLocaleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyNumberContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/MyPublicClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/RecursiveBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/RecursiveBeanEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/SingletonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/StringsResourceBundle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/java/org/json/junit/data/WeirdList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/resources/Issue537.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/resources/Issue537.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/resources/books.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/resources/booksKeysAddPrefix.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/resources/booksKeysAllSorted.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/resources/booksKeysReversed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/resources/booksQuery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/resources/booksReplaced.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SWE262P_PROGRAMMING_STYLES_MileStone2345-master/src/test/resources/jsonpointer-testdoc.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\redsun\.android\avd\Pixel_3a_API_33_x86_64.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Pw5Xxmvxj4hkoFSiiP3DF68T0s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/mswe/266/unsecure-bank-main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Unsecure_Bank.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b68aeda-d89d-44f0-b197-1ffd4f1976df" name="Changes" comment="" />
+      <created>1684355360333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684355360333</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
+  </component>
+</project>
