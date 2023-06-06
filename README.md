@@ -1,6 +1,6 @@
 # Unsecure Bank
 
-This is an intentionally unsecure bank Android app for the SWE 266P course at UCI.
+This is an intentionally unsecure bank Android app for the SWE 266P course at UCI. The main branch has fixed the last 4 vulnerabilities. The unsecure branch has all 5 vulnerabilities listed below.
 
 ## How to run
 
