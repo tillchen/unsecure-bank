@@ -11,19 +11,11 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.UnsecureBank"
-        android:debuggable="true"
         tools:targetApi="31"
         tools:ignore="HardcodedDebugMode">
         <activity
             android:name=".BankingActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="unsecurebank"
-                    android:host="exploit"/>
-            </intent-filter>
+            android:exported="false">
         </activity>
         <activity
             android:name=".RegisterActivity"

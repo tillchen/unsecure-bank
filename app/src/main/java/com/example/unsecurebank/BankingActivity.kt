@@ -25,7 +25,6 @@ class BankingActivity : AppCompatActivity() {
         sharedPreferences = getSharedPreferences("BankApp", Context.MODE_PRIVATE)
         username = intent.getStringExtra("username")!!
         setListeners()
-        requestLocationPermission()
     }
 
     override fun onResume() {
@@ -69,20 +68,6 @@ class BankingActivity : AppCompatActivity() {
             } else {
                 Snackbar.make(binding.root, R.string.insufficient_balance, Snackbar.LENGTH_SHORT).show()
             }
-        }
-    }
-
-    private fun requestLocationPermission() {
-        if (ContextCompat.checkSelfPermission(
-                this,
-                Manifest.permission.ACCESS_FINE_LOCATION,
-            ) != PackageManager.PERMISSION_GRANTED
-        ) {
-            ActivityCompat.requestPermissions(
-                this,
-                arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
-                0,
-            )
         }
     }
 }
